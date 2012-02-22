@@ -131,11 +131,6 @@ typedef struct Vector3 {
 
 	// ### Our framebuffer should now render to the NEW texture...
 
-	// Set the clear color to blue - we WILL see this...
-
-	glClearColor(0.0, 0.0, 1.0, 1.0);
-	glClear(GL_COLOR_BUFFER_BIT);
-
 	// #########################################################################
 
 	// #### Load our program, nothing interesting here...
@@ -230,10 +225,18 @@ typedef struct Vector3 {
 
 	// #########################################################################
 
+	// Set the clear color to blue - we WILL see this...
+	glClearColor(0.0, 0.0, 1.0, 1.0);
+	glClear(GL_COLOR_BUFFER_BIT);
+
+
 	// Render to screen.
 	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
 
 	glFlush();
+	
+	// You should see a RED square inside of a BLUE field.
+	// Unfortunately you see a BLACK square inside of a BLUE field. It's as if the texture isn't available to the shader.
 	
 	return([self fetchImageForTexture:theNewWorkingTexture width:1024 height:1024]);
 	}

@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4572E7A914F5AA2200811094 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4572E7A814F5AA2200811094 /* Cocoa.framework */; };
+		4572E7C614F5AA5800811094 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4572E7C514F5AA5800811094 /* OpenGL.framework */; };
+		4572E7E414F5AB3000811094 /* CAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4572E7D514F5AAFF00811094 /* CAppDelegate.m */; };
+		4572E7E514F5AB3400811094 /* CHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 4572E7D714F5AAFF00811094 /* CHelloWorld.m */; };
+		4572E7E614F5AB3800811094 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4572E7D914F5AAFF00811094 /* Credits.rtf */; };
+		4572E7E714F5AB3C00811094 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4572E7DB14F5AAFF00811094 /* InfoPlist.strings */; };
+		4572E7E814F5AB3C00811094 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4572E7DD14F5AAFF00811094 /* MainMenu.xib */; };
+		4572E7E914F5ABF900811094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4572E7E114F5AAFF00811094 /* main.m */; };
+		4572E7EA14F5AEFA00811094 /* SimpleTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4572E7E214F5AAFF00811094 /* SimpleTexture.fsh */; };
+		4572E7EB14F5AEFA00811094 /* SimpleTexture.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 4572E7E314F5AAFF00811094 /* SimpleTexture.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4572E7A414F5AA2200811094 /* GLHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4572E7A814F5AA2200811094 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4572E7AB14F5AA2200811094 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4572E7AC14F5AA2200811094 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4572E7AD14F5AA2200811094 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4572E7C514F5AA5800811094 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4572E7D414F5AAFF00811094 /* CAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAppDelegate.h; sourceTree = "<group>"; };
+		4572E7D514F5AAFF00811094 /* CAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAppDelegate.m; sourceTree = "<group>"; };
+		4572E7D614F5AAFF00811094 /* CHelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHelloWorld.h; sourceTree = "<group>"; };
+		4572E7D714F5AAFF00811094 /* CHelloWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHelloWorld.m; sourceTree = "<group>"; };
+		4572E7DA14F5AAFF00811094 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Credits.rtf; sourceTree = "<group>"; };
+		4572E7DC14F5AAFF00811094 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		4572E7DE14F5AAFF00811094 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+		4572E7DF14F5AAFF00811094 /* GLHelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLHelloWorld-Info.plist"; sourceTree = "<group>"; };
+		4572E7E014F5AAFF00811094 /* GLHelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLHelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		4572E7E114F5AAFF00811094 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4572E7E214F5AAFF00811094 /* SimpleTexture.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SimpleTexture.fsh; sourceTree = "<group>"; };
+		4572E7E314F5AAFF00811094 /* SimpleTexture.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SimpleTexture.vsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4572E7A114F5AA2200811094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4572E7C614F5AA5800811094 /* OpenGL.framework in Frameworks */,
+				4572E7A914F5AA2200811094 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4572E79914F5AA2200811094 = {
+			isa = PBXGroup;
+			children = (
+				4572E7D414F5AAFF00811094 /* CAppDelegate.h */,
+				4572E7D514F5AAFF00811094 /* CAppDelegate.m */,
+				4572E7D614F5AAFF00811094 /* CHelloWorld.h */,
+				4572E7D714F5AAFF00811094 /* CHelloWorld.m */,
+				4572E7D814F5AAFF00811094 /* en.lproj */,
+				4572E7DF14F5AAFF00811094 /* GLHelloWorld-Info.plist */,
+				4572E7E014F5AAFF00811094 /* GLHelloWorld-Prefix.pch */,
+				4572E7E114F5AAFF00811094 /* main.m */,
+				4572E7E214F5AAFF00811094 /* SimpleTexture.fsh */,
+				4572E7E314F5AAFF00811094 /* SimpleTexture.vsh */,
+				4572E7A714F5AA2200811094 /* Frameworks */,
+				4572E7A514F5AA2200811094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4572E7A514F5AA2200811094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4572E7A414F5AA2200811094 /* GLHelloWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4572E7A714F5AA2200811094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4572E7C514F5AA5800811094 /* OpenGL.framework */,
+				4572E7A814F5AA2200811094 /* Cocoa.framework */,
+				4572E7AA14F5AA2200811094 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4572E7AA14F5AA2200811094 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4572E7AB14F5AA2200811094 /* AppKit.framework */,
+				4572E7AC14F5AA2200811094 /* CoreData.framework */,
+				4572E7AD14F5AA2200811094 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4572E7D814F5AAFF00811094 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4572E7D914F5AAFF00811094 /* Credits.rtf */,
+				4572E7DB14F5AAFF00811094 /* InfoPlist.strings */,
+				4572E7DD14F5AAFF00811094 /* MainMenu.xib */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4572E7A314F5AA2200811094 /* GLHelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4572E7C214F5AA2200811094 /* Build configuration list for PBXNativeTarget "GLHelloWorld" */;
+			buildPhases = (
+				4572E7A014F5AA2200811094 /* Sources */,
+				4572E7A114F5AA2200811094 /* Frameworks */,
+				4572E7A214F5AA2200811094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLHelloWorld;
+			productName = GLHelloWorld;
+			productReference = 4572E7A414F5AA2200811094 /* GLHelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4572E79B14F5AA2200811094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = C;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = toxicsoftware.com;
+			};
+			buildConfigurationList = 4572E79E14F5AA2200811094 /* Build configuration list for PBXProject "GLHelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4572E79914F5AA2200811094;
+			productRefGroup = 4572E7A514F5AA2200811094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4572E7A314F5AA2200811094 /* GLHelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4572E7A214F5AA2200811094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4572E7E614F5AB3800811094 /* Credits.rtf in Resources */,
+				4572E7EA14F5AEFA00811094 /* SimpleTexture.fsh in Resources */,
+				4572E7EB14F5AEFA00811094 /* SimpleTexture.vsh in Resources */,
+				4572E7E714F5AB3C00811094 /* InfoPlist.strings in Resources */,
+				4572E7E814F5AB3C00811094 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4572E7A014F5AA2200811094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4572E7E414F5AB3000811094 /* CAppDelegate.m in Sources */,
+				4572E7E514F5AB3400811094 /* CHelloWorld.m in Sources */,
+				4572E7E914F5ABF900811094 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4572E7D914F5AAFF00811094 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4572E7DA14F5AAFF00811094 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4572E7DB14F5AAFF00811094 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4572E7DC14F5AAFF00811094 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4572E7DD14F5AAFF00811094 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4572E7DE14F5AAFF00811094 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4572E7C014F5AA2200811094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		4572E7C114F5AA2200811094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		4572E7C314F5AA2200811094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLHelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "GLHelloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4572E7C414F5AA2200811094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLHelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "GLHelloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4572E79E14F5AA2200811094 /* Build configuration list for PBXProject "GLHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4572E7C014F5AA2200811094 /* Debug */,
+				4572E7C114F5AA2200811094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4572E7C214F5AA2200811094 /* Build configuration list for PBXNativeTarget "GLHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4572E7C314F5AA2200811094 /* Debug */,
+				4572E7C414F5AA2200811094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4572E79B14F5AA2200811094 /* Project object */;
+}

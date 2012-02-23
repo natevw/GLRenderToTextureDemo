@@ -229,7 +229,9 @@ typedef struct Vector3 {
     glClearColor(0.0, 0.0, 1.0, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
 
-
+    // FIX: maybe not the best place for it, but you need this so texture2D doesn't expect mipmapped texture:
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    
     // Render to screen.
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
 
